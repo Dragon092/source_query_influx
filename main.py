@@ -2,9 +2,10 @@ import a2s
 from datetime import datetime
 from influxdb import InfluxDBClient
 import json
+import os
 
 try:
-    with open('config.json') as config_file:
+    with open(os.path.join(os.path.dirname(__file__), 'config.json')) as config_file:
         config = json.load(config_file)
 except IOError:
     print("Error opening config file")
