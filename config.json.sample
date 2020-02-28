@@ -1,0 +1,15 @@
+{
+  "gameservers": {
+    "<GameServer Name>": {
+      "ip": "<GameServer IP>",
+      "port": <GameServer Query Port>
+    }
+  },
+  "influx": {
+    "host": "<Influx Host>",
+    "port": <Influx Port>,
+    "user": "<Influx User>",
+    "password": "<Influx Password>",
+    "database": "<Influx Database>"
+  }
+}
